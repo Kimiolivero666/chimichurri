@@ -1,0 +1,37 @@
+
+
+.Vinos{
+    background: var(--negro);
+}
+
+.contenedor-vinos{
+    padding-bottom: 5rem;
+}
+
+.Vinos-izq{
+    margin-top: 8rem;
+    background: var(--gris);
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.Vinos-izq h2{
+    color: var(--amarillo);
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+}
+
+.Vinos-izq p{
+    color: var(--blanco);
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-top: 1.5rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.Vinos-der{
+    margin-top: 8rem;
+    background-image: url(../../assets/vinos-chimichurri.jpg);
+    background-size: cover;
+    background-position: center;
+}

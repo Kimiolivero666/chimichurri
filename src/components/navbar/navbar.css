@@ -1,0 +1,147 @@
+.Navbar {
+    background-color: rgba(3, 3, 3, 0.5);
+}
+
+.navbar-contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-img img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 150px;
+    cursor: pointer;
+}
+
+
+.navbar-img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+
+.primer-enlace {
+    text-decoration: none;
+    color: var(--amarillo);
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.primer-enlace:hover {
+    color: var(--blanco);
+    transition: 0.5s;
+}
+
+
+.link-menu {
+    text-decoration: none;
+    color: var(--blanco);
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.link-menu:hover {
+    color: var(--amarillo);
+    transition: 0.5s;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    border-left: solid 2px var(--blanco);
+}
+
+.icono {
+    margin-left: 20px;
+    border-radius: 50%;
+    background-color: var(--blanco);
+    padding: 3px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.icono:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+
+.barns {
+    color: var(--blanco);
+    font-size: 40px;
+    display: none;
+    border: solid 1px var(--amarillo);
+    border-radius: 50%;
+    padding: 5px;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .menu button {
+        font-size: 15px;
+        margin-top: 35px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .barns {
+        display: block;
+    }
+
+    .menu-box {
+        height: 100vh;
+        width: 100%;
+        margin-left: 20%;
+        display: flex;
+        flex-direction: column;
+        background: var(--blanco);
+    }
+
+    .menu {
+        width: 100%;
+        position: absolute;
+        top: 118px;
+        right: -100%;
+        transition: right 0.1s ease-in;
+    }
+
+    .menu.active {
+        right: 0;
+    }
+
+
+    .Navbar.menu-open .menu {
+        right: 0;
+    }
+
+    .link-menu {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: var(--negro);
+    }
+
+    .link-menu:hover {
+        color: var(--celeste);
+    }
+
+    .icons {
+        padding-left: 0px;
+        border-left: none;
+    }
+
+}

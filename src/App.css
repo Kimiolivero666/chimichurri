@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/lt-remark');
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'LT Remark', sans-serif;
+                                                
+  }
+  
+
+  :root{
+    --negro: #1a191d;
+    --gris: #26282a;
+    --blanco: #fff;
+    --amarillo: #ffd012;
+ }
