@@ -6,21 +6,14 @@ const Comidas = () => {
         <div className='comidas'>
             <Container>
                 <Row className='contenedor-comidas'>
-                    <Col md={1}></Col>
-                    <Col md={5} className='comidas-izq'>
-                    </Col>
-                    <Col md={5} className='comidas-der'>
-                        <h2>Chimi Comidas</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum minima, quam voluptatum pariatur unde at
-                            aliquid consequatur excepturi repellendus. Nobis perspiciatis similique veniam dolorem nam earum excepturi
-                            quisquam, quae repellat.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam ea cupiditate qui itaque modi facere
-                            quos nostrum sunt praesentium, aliquid temporibus minus omnis laudantium vel doloremque dolorem tempora.
-                            Quae, deserunt.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam ea cupiditate qui itaque modi facere
-                            quos nostrum sunt praesentium, aliquid temporibus minus omnis laudantium vel doloremque dolorem tempora.
-                            Quae, deserunt.</p>
 
+                    <Col lg={6} className='comidas-izq'>
+                    </Col>
+                    <Col lg={6} className='comidas-der'>
+                        <h2>Chimi Food</h2>
+                        <p>Y Chimi FOOD, es la pareja, la gastronomía, nuestra comida favorita, criolla, regional en sus diferentes versiones con salsa chimichurri y con productos e ingredientes frescos de Valencia; aquella que heredamos de nuestros antepasados originarios y mediterráneos. Muchas carnes rojas tierna de vaca y ternera, secreto de cerdo, los chorizos, el chori, el lomito, las empanadas, la provoleta, las tostadas especiales y las patatas fritas son parte de nuestros menús. </p>
+                        <p>A parte de poder disfrutar la comida en nuestro pequeño Restó. También ofrecemos servicio delivery y por supuesto, Take Away. Haaa y hacemos el asado argentino en tu evento privado! </p>
+                        <p>Cada uno de nuestros platos es un maridaje perfecto para nuestros principales vinos. A esta comida clásica nuestra, le sumamos nuestra propia experiencia y nuestro propio paladar.</p>
                     </Col>
                 </Row>
             </Container>

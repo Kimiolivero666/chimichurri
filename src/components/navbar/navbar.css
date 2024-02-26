@@ -85,6 +85,9 @@
 }
 
 
+/* responsive */
+
+
 
 @media screen and (max-width: 1200px) {
     .menu button {
@@ -94,6 +97,11 @@
 }
 
 @media screen and (max-width: 991px) {
+
+
+    /* .Navbar{ */
+        /* background: var(--gris); */
+    /* } */
 
     .barns {
         display: block;
@@ -126,16 +134,21 @@
         right: 0;
     }
 
+    .navbar-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .primer-enlace {
         display: flex;
         align-items: center;
         justify-content: center;
         border-bottom: 1px solid var(--amarillo);
-        width: 300px;
+        width: 250px;
         font-weight: 700;
         margin-top: 10px;
         margin-bottom: 10px;
-        margin-left: 30px;
         padding-top: 20px;
         padding-bottom: 10px;
     }
@@ -147,18 +160,22 @@
         text-align: center;
         margin-top: 10px;
         margin-bottom: 10px;
-        margin-left: 30px;
         padding-top: 10px;
         padding-bottom: 10px;
         color: var(--blanco);
         border-bottom: 1px solid var(--amarillo);
-        width: 300px;
+        width: 250px;
         font-weight: 700;
     }
 
     .icons {
         padding-left: 0px;
         border-left: none;
+        gap: 1rem;
+    }
+
+    .icono{
+         margin-left: 0px;
     }
 
 }

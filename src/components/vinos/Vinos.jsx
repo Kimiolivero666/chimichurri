@@ -1,30 +1,25 @@
-import { Col, Container, Row } from 'react-bootstrap'
-import './vinos.css'
-
-import isologo2 from '../../assets/Icon-cuchara.png'
+import { Col, Container, Row } from 'react-bootstrap';
+import './vinos.css';
+import isologo2 from '../../assets/Icon-cuchara.png';
 
 const Vinos = () => {
     return (
         <div className='Vinos'>
             <Container>
                 <Row className='contenedor-vinos'>
-                    
-                    <Col md={6} className='Vinos-izq'>
-                        <h2>Chimis Vinos</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum minima, quam voluptatum pariatur unde at aliquid consequatur excepturi repellendus. Nobis perspiciatis similique veniam dolorem nam earum excepturi quisquam, quae repellat.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam ea cupiditate qui itaque modi facere quos nostrum sunt praesentium, aliquid temporibus minus omnis laudantium vel doloremque dolorem tempora. Quae, deserunt.</p>
-                        
+                    <Col lg={6} className='Vinos-izq'>
+                        <h2>Chimi Wines</h2>
+                        <p>Chimi WINES, es un poco de todo, Wine Bar, Tienda de Vinos, Wine club, un espacio para compartir el VINO a través de maridajes con comida, degustaciones y catas con profesionales.</p>
+                        <p>Descubrir los vinos de las “Capitales del Vino del MUNDO” que nos llevará a un viaje por los vinos del VIEJO mundo como los son, España, Italia, Francia; Portugal, Alemania y Suiza; y los vinos del NUEVO mundo como Argentina, Chile, Estados Unidos, Sudáfrica, Australia y Nueva Zelanda.</p>
+                        <p>Es decir, todo lo que nos une con el vino, es Chimi Wine.</p>
                     </Col>
-                    <Col md={6} className='Vinos-der'>
-                        
+                    <Col lg={6} className='Vinos-der'>
+                        <img src={isologo2} alt="" />
                     </Col>
-
-                    <img src={isologo2} alt="" />
-
                 </Row>
             </Container>
         </div>
     )
 }
 
-export default Vinos
+export default Vinos;
