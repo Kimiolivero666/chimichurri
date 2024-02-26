@@ -94,12 +94,13 @@
 }
 
 @media screen and (max-width: 991px) {
+
     .barns {
         display: block;
     }
 
     .menu-box {
-        height: 60vh;
+        height: 100vh;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -111,7 +112,7 @@
     .menu {
         width: 100%;
         position: absolute;
-        top: 82px;
+        top: 81px;
         right: -100%;
         transition: right 0.1s ease-in;
     }
@@ -153,10 +154,6 @@
         border-bottom: 1px solid var(--amarillo);
         width: 300px;
         font-weight: 700;
-    }
-
-    .link-menu:hover {
-        color: var(--celeste);
     }
 
     .icons {
