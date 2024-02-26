@@ -33,3 +33,36 @@
 .titulo span{
     color: var(--amarillo);
 }
+
+/* responsive */
+
+@media screen and (max-width: 990px){
+
+    .titulo h2{
+        font-size: 40px;
+    }
+
+    .titulo span{
+        font-size: 45px;
+    }
+    
+
+    .titulo h3{
+        font-size: 45px;
+    }
+    
+}
+
+@media screen and (max-width: 425px){
+    .titulo h2{
+        font-size: 35px;
+    }
+    .titulo span{
+        font-size: 40px;
+    }
+        
+    .titulo h3{
+        font-size: 40px;
+    }
+        
+}

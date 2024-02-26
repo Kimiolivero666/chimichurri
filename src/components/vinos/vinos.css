@@ -2,10 +2,21 @@
 
 .Vinos{
     background: var(--negro);
+    position: relative;
 }
 
 .contenedor-vinos{
-    padding-bottom: 5rem;
+    padding-bottom: 8rem;
+    width: 80%;
+    border-bottom: 2px solid var(--amarillo);
+    margin-left: 10%;
+}
+
+.contenedor-vinos img{
+    width: 100px;
+    position: absolute;
+    left: 47%;
+    bottom: -40px;
 }
 
 .Vinos-izq{

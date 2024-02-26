@@ -1,5 +1,6 @@
 import { Container } from 'react-bootstrap'
 import './espacioChimi.css'
+import isotipo1 from '../../assets/icon-copa.png'
 
 const EspacioChimi = () => {
   return (
@@ -18,6 +19,7 @@ const EspacioChimi = () => {
 
         </div>
       </Container>
+      <img src={isotipo1} alt="" />
     </div>
   )
 }
