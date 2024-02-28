@@ -1,0 +1,122 @@
+
+
+.Contacto{
+    background: var(--negro);
+}
+
+.Contacto h1{
+    color: var(--blanco);
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 5rem;
+}
+
+.contenedor-contacto-btn{
+    padding-bottom: 8rem;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.bg{
+    display: flex;
+    justify-content: center;
+}
+
+.horario{
+    width: 60%;
+    margin-left: 20%;
+    padding-bottom: 5rem;
+}
+
+.horario p{
+    color: var(--blanco);
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 5rem;
+    font-size: 20px;
+}
+
+.horarios{
+padding-bottom: 5rem;
+}
+
+.horarios h6{
+    color: var(--blanco);
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+}
+
+.horarios span{
+    color: var(--amarillo);
+    font-family: 'Raleway', sans-serif;
+}
+
+.horario h5{
+    color: var(--blanco);
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.mapa{
+    width: 80%;
+    margin-left: 10%;
+    padding-bottom: 3rem;
+}
+
+.mapa iframe{
+width: 100%;
+padding-bottom: 3rem;
+height: 600px;
+}
+
+.mapa p{
+    color: var(--blanco);
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px; 
+}
+
+/* responsive */
+
+@media screen and (max-width: 992px){
+    .bg{
+        margin-bottom: 2.5rem;
+    }
+}
+
+
+@media screen and (max-width: 900px){
+    .horario{
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .horarios h6{
+        font-size: 20px;
+    }
+    .horario h5{
+        font-size: 20px;
+    }
+    
+    .mapa{
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+    .mapa iframe{
+    height: 400px;
+    }
+    
+    .mapa p{
+        font-size: 20px; 
+    }
+    
+}
+
+
+@media screen and (max-width: 580px){
+    .Contacto h1{
+        font-size: 40px;
+    }
+    
+}
+

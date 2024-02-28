@@ -19,7 +19,7 @@
 }
 
 .contenedor-EspacioChimi{
-    padding-bottom: 3rem;
+    padding-bottom: 5rem;
 }
 
 .contenedor-EspacioChimi h1{
@@ -42,7 +42,7 @@
 .parrafo-EspacioChimi p{
     color: var(--blanco);
     font-family: 'Raleway', sans-serif;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
 }
 
 

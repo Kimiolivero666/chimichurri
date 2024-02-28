@@ -1,0 +1,43 @@
+
+
+.BotonContacto{
+    display: flex;
+}
+
+
+.btn{
+    font-size: 60px;
+    background: var(--amarillo);
+    padding: 10px;
+    border-radius: 0;
+}
+.btn:hover{
+    background: var(--amarillo);
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 18rem;
+    border-top: 2px solid var(--amarillo);
+    border-right: 2px solid var(--amarillo);
+}
+
+.link:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.info{
+    color: var(--blanco);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.info:hover{
+    color: var(--amarillo);
+    transition: 0.5s;
+    
+}

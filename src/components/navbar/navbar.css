@@ -1,5 +1,5 @@
 .Navbar {
-    background-color: rgba(3, 3, 3, 0.5);
+    background-color: rgba(3, 3, 3, 0.8);
 }
 
 .navbar-contenedor {
@@ -97,11 +97,6 @@
 }
 
 @media screen and (max-width: 991px) {
-
-
-    /* .Navbar{ */
-        /* background: var(--gris); */
-    /* } */
 
     .barns {
         display: block;
