@@ -11,7 +11,7 @@ const Contacto = () => {
             <Container>
                 <Row className='contenedor-contacto-btn'>
                     <Col lg={6} className='bg'>
-                        <BotonCorreo email="valenciachimichurri@gmail.com " />
+                        <BotonCorreo email="valenciachimichurri@gmail.com" />
                     </Col>
                     <Col lg={6} className='bg'>
                         <BotonWhatsapp telefono="+5492616419604" />

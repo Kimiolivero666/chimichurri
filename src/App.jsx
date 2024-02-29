@@ -7,6 +7,7 @@ import EspacioChimi from './components/Espacio chimi/EspacioChimi';
 import Vinos from './components/vinos/Vinos';
 import Comidas from './components/comidas/Comidas';
 import Contacto from './components/contacto/Contacto';
+import Footer from './components/footer/Footer';
 
 function App() {
 
@@ -34,8 +35,8 @@ function App() {
       <section id='Contacto'>
         <Contacto />
       </section>
-
-
+    
+<Footer/>
 
 
     </>

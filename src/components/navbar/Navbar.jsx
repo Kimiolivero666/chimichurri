@@ -53,7 +53,8 @@ const Navbar = () => {
       <Container>
         <div className='navbar-contenedor'>
           <div className='navbar-img d-none d-md-block'>
-            <img src={Logo} alt='' />
+          <a href='#inicio'><img src={Logo} alt='' /></a>
+           
           </div>
           <div className={`menu m-auto ${menuOpen ? 'active' : ''}`}>
             <div className='menu-box'>
@@ -81,7 +82,7 @@ const Navbar = () => {
           </div>
 
           <div className='navbar-img d-block d-md-none'>
-            <img src={Logo} alt='' />
+          <a href='#inicio'><img src={Logo} alt='' /></a>
           </div>
 
           {menuOpen ? (

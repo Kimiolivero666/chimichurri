@@ -61,6 +61,7 @@ padding-bottom: 5rem;
     width: 80%;
     margin-left: 10%;
     padding-bottom: 3rem;
+    border-bottom: 2px solid var(--amarillo);
 }
 
 .mapa iframe{
@@ -72,7 +73,7 @@ height: 600px;
 .mapa p{
     color: var(--blanco);
     font-family: 'Raleway', sans-serif;
-    font-size: 30px; 
+    font-size: 20px; 
 }
 
 /* responsive */
@@ -100,14 +101,14 @@ height: 600px;
     .mapa{
         width: 100%;
         margin-left: 0%;
-    }
+         }
     
     .mapa iframe{
     height: 400px;
     }
     
     .mapa p{
-        font-size: 20px; 
+        font-size: 15px; 
     }
     
 }
