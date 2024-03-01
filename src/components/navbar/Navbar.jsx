@@ -81,7 +81,7 @@ const Navbar = () => {
             <FaInstagram className='icono' />
           </div>
 
-          <div className='navbar-img d-block d-md-none'>
+          <div className='navbar-img d-block d-md-none text-center'>
           <a href='#inicio'><img src={Logo} alt='' /></a>
           </div>
 

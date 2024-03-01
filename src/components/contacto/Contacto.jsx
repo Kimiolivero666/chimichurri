@@ -2,12 +2,13 @@ import { Container, Row, Col } from 'react-bootstrap'
 import './contacto.css'
 import BotonCorreo from '../botones-contacto/BotonCorreo'
 import BotonWhatsapp from '../botones-contacto/BotonWhatsapp'
+import { motion } from 'framer-motion';
 
 
 const Contacto = () => {
     return (
         <div className='Contacto text-center'>
-            <h1>Contacto y reservas</h1>
+            <motion.h1 initial='hidden' whileInView='visible' viewport={{ once: true, amount: 0.5}} transition={{ delay: 0.2, duration: 0.5}} variants={{ hidden: { opacity: 0, y:50}, visible:{opacity: 1, y:0}}}>Contacto y reservas</motion.h1>
             <Container>
                 <Row className='contenedor-contacto-btn'>
                     <Col lg={6} className='bg'>
