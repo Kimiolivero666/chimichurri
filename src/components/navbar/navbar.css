@@ -60,6 +60,7 @@
     margin-bottom: 15px;
     padding-left: 20px;
     border-left: solid 2px var(--blanco);
+    
 }
 
 .icono {
@@ -69,6 +70,7 @@
     padding: 3px;
     font-size: 20px;
     cursor: pointer;
+    color: var(--negro)
 }
 
 .icono:hover {

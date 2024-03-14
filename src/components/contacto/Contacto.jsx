@@ -8,28 +8,31 @@ import { motion } from 'framer-motion';
 const Contacto = () => {
     return (
         <div className='Contacto text-center'>
-            <motion.h1 initial='hidden' whileInView='visible' viewport={{ once: true, amount: 0.5}} transition={{ delay: 0.2, duration: 0.5}} variants={{ hidden: { opacity: 0, y:50}, visible:{opacity: 1, y:0}}}>Contacto y reservas</motion.h1>
+            <motion.h1 initial='hidden' whileInView='visible' viewport={{ once: true, amount: 0.5 }} transition={{ delay: 0.2, duration: 0.5 }} variants={{ hidden: { opacity: 0, y: 50 }, visible: { opacity: 1, y: 0 } }}>Contacto y reservas</motion.h1>
             <Container>
                 <Row className='contenedor-contacto-btn'>
                     <Col lg={6} className='bg'>
                         <BotonCorreo email="valenciachimichurri@gmail.com" />
                     </Col>
                     <Col lg={6} className='bg'>
-                        <BotonWhatsapp telefono="+5492616419604" />
+                        <BotonWhatsapp telefono="+34697508690" />
                     </Col>
                 </Row>
                 <div className="horario">
-                    <p>El horario habitual de Chimichurri es de
-                        Martes a Domingo; de 10 hs a 24 hs. Para
-                        degustaciones, horarios de mañana y de
-                        tarde. Consultar por días y horarios
-                        especiales</p>
+                    {/* <p>El horario habitual de Chimichurri es de */}
+                    {/* Martes a Domingo; de 10 hs a 24 hs. Para */}
+                    {/* degustaciones, horarios de mañana y de */}
+                    {/* tarde. Consultar por días y horarios */}
+                    {/* especiales</p> */}
                     <div className="horarios">
-
-                        <h6>Wine Bar de <span>10 a 24 hs.</span></h6>
-                        <h6>Wine Store de <span>10 a 22 hs.</span></h6>
-                        <h6>Cocina de <span>12 a 14:30 hs y 20 a 23 hs.</span></h6>
-                        <h6>¡Empanadas y Vinos todo el día!</h6>
+                        <h6>Abrimos todos los días </h6>
+                        <p>10:30 a 23:30 hs</p>
+                        <h6>Cocina abierta de miércoles a domingos</h6>
+                        <p>12:30 a 15 hs y de 19:30 a 22:30 hs</p>
+                        <h6>Bar y tienda de vinos </h6>
+                        <p>10:30 a 23 hs</p>
+                        <h6>Degustaciones especiales en horarios de mañana y de tarde. Consultar.</h6>
+                        <h6><span>¡Maridaje de vinos  con empanadas, quesos y chocolates TODO EL DÍA...!</span></h6>
                     </div>
 
                     <h5>Te esperamos para disfrutar experiencias únicas alrededor del mundo del vino y la gastronomía Argentina.</h5>

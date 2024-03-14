@@ -48,6 +48,7 @@ const Navbar = () => {
     };
   }, [menuOpen]);
 
+
   return (
     <nav className='Navbar fixed-top'>
       <Container>
@@ -77,8 +78,8 @@ const Navbar = () => {
           </div>
 
           <div className='icons'>
-            <FaFacebookF className='icono' />
-            <FaInstagram className='icono' />
+            <a href="https://www.facebook.com/profile.php?id=61556950231428&sk=about&locale=es_LA" target="_blank"><FaFacebookF className='icono' /></a>
+            <a href="https://www.instagram.com/chimichurrivalencia?igsh=MW04cHl0ZmpseWJhNw=="target="_blank"><FaInstagram className='icono' /></a>
           </div>
 
           <div className='navbar-img d-block d-md-none text-center'>
