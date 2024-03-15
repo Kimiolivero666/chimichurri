@@ -22,7 +22,6 @@ const Comidas = () => {
                     </Col>
                 </Row>
             </Container>
-            Vinos
         </div>
     )
 }
