@@ -4,6 +4,9 @@
     display: flex;
 }
 
+.BotonContacto:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
 
 .btn{
     font-size: 60px;
@@ -22,10 +25,6 @@
     width: 18rem;
     border-top: 2px solid var(--amarillo);
     border-right: 2px solid var(--amarillo);
-}
-
-.link:hover{
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .info{

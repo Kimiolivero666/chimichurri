@@ -19,11 +19,6 @@ const Contacto = () => {
                     </Col>
                 </Row>
                 <div className="horario">
-                    {/* <p>El horario habitual de Chimichurri es de */}
-                    {/* Martes a Domingo; de 10 hs a 24 hs. Para */}
-                    {/* degustaciones, horarios de mañana y de */}
-                    {/* tarde. Consultar por días y horarios */}
-                    {/* especiales</p> */}
                     <div className="horarios">
                         <h6>Abrimos todos los días </h6>
                         <p>10:30 a 23:30 hs</p>

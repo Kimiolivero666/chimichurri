@@ -15,7 +15,7 @@ const EspacioChimi = () => {
           <div className="parrafo-EspacioChimi">
           <p>Chimichurri es un espacio muy pequeño, único, tranquilo e informal ubicado en Algirós, en la famosa Avenida Blasco Ibañes de Valencia. </p>
           <p>Un lugar donde se puede disfrutar de lindos momentos, con muy buenos vinos de diferentes países y comida casera, sabrosa tradicional típica Argentina con salsa chimichurri. </p>
-          <p>Un lugar donde se puede disfrutar de lindos momentos, con muy buenos vinos de diferentes países y comida casera, sabrosa tradicional típica Argentina con salsa chimichurri. </p>
+          <p>Mucho más que un sitio de comidas. Ofrecemos un Menú Degustación de diferentes pasos armonizados con vinos del viejo y del nuevo mundo… </p>
           </div>
 
         </div>
